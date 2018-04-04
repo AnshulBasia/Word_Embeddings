@@ -7,4 +7,6 @@ from approaches like word2vec and glove and there's no point in competing with t
 Sounds interesting ? Let's see if we can do that.
 Pre-Trained Model: https://fasttext.cc/docs/en/english-vectors.html#download-pre-trained-word-vectors
 
-2.) Goal is to detect similarity between questions being posted on quora using word embeddings approach instead of a deep neural network.
+2.) Hypernymy
+
+3.) Spam classification
