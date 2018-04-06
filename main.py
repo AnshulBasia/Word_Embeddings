@@ -74,7 +74,7 @@ def print_analogy(left2: str, left1: str, right2: str, words: List[Word]) -> Non
         #alternatives = ', '.join([f"{w.text} ({dist})" for (dist, w) in analogies])
         print(f"{left2}-{left1} is like {right2}-{w.text}")
 
-words = load_words('data/words.vec')
+words = load_words('data/words-short.vec')
 
 print_most_similar(words, words[190].text)
 print_most_similar(words, words[230].text)
